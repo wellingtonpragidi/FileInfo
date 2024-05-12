@@ -13,7 +13,7 @@ class FileInfo {
     /** 
      * @method filename e extension
      * @var $file_name
-     * nos @method a @var pode tanto ser a imagem por diretorio, url ou só o nome do arquivo*/
+     * nos @method a @var pode tanto ser o arquivo por diretorio, url ou só o nome do arquivo*/
 
     static function filename($file_name, $with_ext = true) {
         if($with_ext == false)
